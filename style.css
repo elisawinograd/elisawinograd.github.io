@@ -17,6 +17,7 @@ body {
 
 #right {
 	float: right;
+    text-align: right;
 }
 
 .link, .link-about, .link a, .link-about a {
@@ -94,6 +95,7 @@ input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     display: inherit;
     visibility: visible;
-    background-color: red;
+    color: #000000;
+    background-color: #ffe500;
 }
    

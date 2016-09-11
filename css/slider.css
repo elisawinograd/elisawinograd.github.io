@@ -1,0 +1,29 @@
+#wrapper{
+	width: 500px;
+	background-color: red;
+}
+
+.content {
+	float: left;
+	width: 100px;
+	height: 50px;
+	background-color: black;
+	background-repeat: no-repeat;
+}
+
+#container {
+	width: 100px;
+	overflow: hidden;
+}
+
+#slide-01 {
+	background-color: orange;
+}
+
+#slide-02 {
+	background-color: pink;
+}
+
+#slide-03 {
+	background-color: purple;
+}

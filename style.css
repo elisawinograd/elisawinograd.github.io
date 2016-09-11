@@ -1,5 +1,5 @@
 html {
-    background: url(images/wrist.jpg) no-repeat center center fixed;
+    background: url(images/spine.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,9 +31,12 @@ body {
     width: 155px;
 }
 
+/* TOGGLE */
+
 #content-about,
 #content-about a,
-#content-projects{
+#content-projects,
+#content-photo{
 	font-family: "PT sans";
 	color: #fff;
 	font-size: 14px;
@@ -53,6 +56,10 @@ body {
 
 .sub-link a:hover {
     text-decoration: underline;
+}
+
+article {
+    padding-bottom: 10px;
 }
 
 article section:last-of-type {
@@ -78,18 +85,21 @@ input[type=checkbox]:checked ~ section {
     visibility: visible;
 }
 
+[for="expand-photo"] span:last-of-type,
 [for="expand-projects"] span:last-of-type,
 [for="expand-about"] span:last-of-type {
     display: none;
     visibility: hidden;
 }
 
+input[type=checkbox]:checked ~ [for="expand-photo"] span:first-of-type,
 input[type=checkbox]:checked ~ [for="expand-projects"] span:first-of-type, 
 input[type=checkbox]:checked ~ [for="expand-about"] span:first-of-type {
     display: none;
     visibility: hidden;
 }
 
+input[type=checkbox]:checked ~ [for="expand-photo"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     display: inherit;
@@ -97,4 +107,29 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     color: #000000;
     background-color: #ffe500;
 }
-   
+
+/* SLIDER */
+
+#slides {
+    display: none;
+}
+
+.wrapper {
+
+   }
+
+.slider {
+
+}
+
+.viewport {
+
+}
+
+.slide {
+
+}
+
+#slide-01 {
+
+}

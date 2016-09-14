@@ -122,11 +122,10 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     #right {
         float: left;
         width: 100%;
+        text-align: left;
     }
 }
 
 @media (max-width: 400px) {
-    #right {
-        text-align: left;
-    }
+
 }

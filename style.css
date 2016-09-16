@@ -42,9 +42,9 @@ body {
 	font-size: 14px;
 }
 
-#content-about a:hover,
-.link-about a:hover,
-#context-about a:hover{
+#content-about,
+.link-about,
+#context-about {
     text-decoration: underline;
 }
 

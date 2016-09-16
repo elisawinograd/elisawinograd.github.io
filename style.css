@@ -42,9 +42,9 @@ body {
 	font-size: 14px;
 }
 
-#content-about,
-.link-about,
-#context-about {
+#content-about a,
+.link-about a,
+#context-about a{
     text-decoration: underline;
 }
 

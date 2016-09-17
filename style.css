@@ -125,7 +125,15 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 @media (max-width: 400px) {
+    html {
+        background: url(images/spine-mobile.jpg) no-repeat top center fixed #000;
+    }
+
      body {
         padding: 20px 0px 30px 20px;
+    }
+
+    .sub-link a {
+        padding: 5px 0;
     }
 }

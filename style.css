@@ -45,8 +45,12 @@ body {
 
 #content-about a,
 .link-about a,
-#context-about a{
+.sub-link a{
     text-decoration: underline;
+}
+
+.link-about a:hover {
+    color: #ffe500;
 }
 
 .sub-link a {

@@ -20,14 +20,13 @@ body {
     text-align: right;
 }
 
-.link, .link-about, .link a, .link-about a {
-	font-family: "menlo";
+.link, 
+.link-about, 
+.link a, 
+.link-about a {
+	font-family: 'PT Sans', sans-serif;
     font-size: 14px;
 	color: #fff;
-	text-decoration: none;
-}
-
-.link-about {
     width: 155px;
 }
 
@@ -37,7 +36,7 @@ body {
 #content-about a,
 #content-projects,
 #content-photo{
-	font-family: "PT sans";
+	font-family: 'PT Sans', sans-serif;
 	color: #fff;
 	font-size: 14px;
     text-decoration: none;
@@ -54,7 +53,7 @@ body {
 }
 
 .sub-link a {
-    font-family: "PT sans";
+    font-family: 'PT Sans', sans-serif;
     color: #fff;
     font-size: 14px;
     text-decoration: none;

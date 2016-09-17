@@ -24,8 +24,8 @@ body {
 .link-about, 
 .link a, 
 .link-about a {
-	font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
+	font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
 	color: #fff;
     width: 155px;
 }
@@ -38,28 +38,21 @@ body {
 #content-photo{
 	font-family: 'PT Sans', sans-serif;
 	color: #fff;
-	font-size: 14px;
+	font-size: 15px;
     text-decoration: none;
-}
-
-#content-about a,
-.link-about a,
-.sub-link a{
-    text-decoration: underline;
-}
-
-.link-about a:hover {
-    color: #ffe500;
 }
 
 .sub-link a {
+    display: block;
     font-family: 'PT Sans', sans-serif;
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
+    padding-top: 5px;
     text-decoration: none;
 }
 
-.sub-link a:hover {
+.sub-link a:hover,
+#content-about a:hover {
     text-decoration: underline;
 }
 

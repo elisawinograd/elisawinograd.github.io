@@ -42,21 +42,12 @@ body {
 }
 
 /* TOGGLE */
-#content-about a {
-    font-family: 'PT Sans', sans-serif;
-    color: #fff;
-    font-size: 15px;
-    text-decoration: underline;
-}
-
-
 #content-about,
 #content-projects,
 #content-photo{
 	font-family: 'PT Sans', sans-serif;
 	color: #fff;
 	font-size: 15px;
-    text-decoration: none;
 }
 
 .sub-link a {
@@ -68,6 +59,7 @@ body {
 }
 
 .sub-link a:hover,
+#content-about a,
 #content-about a:hover {
     text-decoration: underline;
 }

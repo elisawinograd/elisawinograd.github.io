@@ -28,6 +28,7 @@ body {
     font-size: 15px;
 	color: #fff;
     width: 155px;
+    text-decoration: underline;
 }
 
 .link-about a:hover,
@@ -41,9 +42,15 @@ body {
 }
 
 /* TOGGLE */
+#content-about a {
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
 
 #content-about,
-#content-about a,
 #content-projects,
 #content-photo{
 	font-family: 'PT Sans', sans-serif;
@@ -136,7 +143,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 @media (max-width: 400px) {
     html {
         background: url(images/spine-mobile.jpg) no-repeat top center fixed #000;
-    }
+    }ƒpro
 
      body {
         padding: 20px 0px 30px 20px;

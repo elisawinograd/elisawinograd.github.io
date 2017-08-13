@@ -1,4 +1,8 @@
 html {
+    background-color: black;
+}
+
+#home{
     background: url(images/spine.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,6 +12,10 @@ html {
 
 body {
     padding: 30px 100px;
+}
+
+body #project {
+    background-color: black;
 }
 
 #left {
@@ -133,9 +141,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 @media (max-width: 400px) {
-    html {
-        background: url(images/spine-mobile.jpg) no-repeat top center fixed #000;
-    }ƒpro
 
      body {
         padding: 20px 0px 30px 20px;

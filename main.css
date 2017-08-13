@@ -1,4 +1,4 @@
-html {
+#index{
     background: url(images/spine.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -6,13 +6,22 @@ html {
     background-size: cover;
 }
 
+#project{
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
-    padding: 30px 100px;
+    margin: 0;
 }
 
 #left {
 	float: left;
 	width: 350px;
+    padding: 30px 100px;
 }
 
 #right {
@@ -40,6 +49,11 @@ body {
     color: #000;
 }
 
+.link-view {
+    color: #ffe500;
+    text-decoration: none;
+}
+
 /* TOGGLE */
 
 #content-about,
@@ -52,7 +66,7 @@ body {
     text-decoration: none;
 }
 
-.sub-link a {
+.sub-link{
     font-family: 'PT Sans', sans-serif;
     color: #fff;
     font-size: 15px;
@@ -114,34 +128,145 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     background-color: #ffe500;
 }
 
+/* PROJECTS */
+#projects-container {    
+    padding: 30px 100px;
+    margin-bottom: 50px;
+}
+
+.project {
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #fafafa;
+    width: 100%;
+    position: fixed;
+    padding: 20px 100px;
+}
+
+.back {
+    font-family: 'PT Sans', sans-serif;
+    color: #000;
+    font-size: 13px;
+}
+
+.paragraph {
+    font-family: 'PT Sans', sans-serif;
+    color: #000;
+    width: 70%;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.project-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: #000;
+    width: auto;
+}
+
+.paragraph-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #000;
+    padding-top: 20px;
+    width: auto;
+}
+
+.img-caption {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #b0b0b0;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.project-img img{
+    border: 1px solid #b0b0b0;
+    width: 100%;
+}
+
+.project-img-small img{
+    border: 1px solid #b0b0b0;
+    margin-right:20px;
+    width: 90%;
+}
+
+.project-img {
+    float:left;
+}
+
+.project-img-small {
+    float: left;
+    width: 50%;
+}
+
+.project-article {
+    float:left;
+}
+
+.link-projects {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+.footer-project {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    color: #000;
+    padding: 10px 0px;
+    background-color: #fafafa;
+    width: 100%;
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 700px) {
-    body {
-        padding: 30px 50px;
-    }
-
     #left {
-        width: 100%;
-    }
-
-    #right {
-        float: left;
-        width: 100%;
-        text-align: left;
+        padding: 30px 50px;
     }
 }
 
-@media (max-width: 400px) {
-    html {
+@media (max-width: 500px) {
+    #index {
         background: url(images/spine-mobile.jpg) no-repeat top center fixed #000;
     }
 
-     body {
-        padding: 20px 0px 30px 20px;
+    #left {
+        padding: 30px 10px;
     }
 
     .sub-link a {
         padding: 5px 0;
+    }
+
+    .project-img-small {
+        float: left;
+        width: 100%;
+    }
+
+    #projects-container {    
+        padding: 30px 30px;
+        margin-bottom: 50px;
+    }
+
+    .paragraph {
+        font-family: 'PT Sans', sans-serif;
+        color: #000;
+        width: 100%;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .header {
+        background-color: #fafafa;
+        width: 100%;
+        position: fixed;
+        padding: 20px 30px;
     }
 }

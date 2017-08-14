@@ -18,10 +18,27 @@ body {
     margin: 0;
 }
 
-#left {
+#about {
 	float: left;
-	width: 350px;
+    width: 350px;
+    padding: 30px 300px 0px 100px;
+}
+
+#projects {
+    float: left;
     padding: 30px 100px;
+    width: 100%;
+}
+
+#projects-col-1 {
+    float: left;
+    width: 350px;
+    padding-right: 30px;
+}
+
+#projects-col-2 {
+    float: left;
+    width: 350px;
 }
 
 #right {
@@ -50,8 +67,8 @@ body {
 }
 
 .link-view {
-    color: #ffe500;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* TOGGLE */
@@ -68,9 +85,10 @@ body {
 
 .sub-link{
     font-family: 'PT Sans', sans-serif;
-    color: #fff;
-    font-size: 15px;
+    color: #ffe500;
+    font-size: 17px;
     padding-top: 5px;
+    text-decoration: none;
 }
 
 .sub-link a:hover,
@@ -184,7 +202,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
 .project-img img{
     border: 1px solid #b0b0b0;
-    width: 100%;
+    width: 80%;
 }
 
 .project-img-small img{

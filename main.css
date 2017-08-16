@@ -26,19 +26,19 @@ body {
 
 #projects {
     float: left;
-    padding: 30px 100px;
+    padding: 0px 100px;
     width: 100%;
 }
 
-#projects-col-1 {
+#projects-col-1, #projects-col-2 {
     float: left;
-    width: 350px;
+    width: 300px;
     padding-right: 30px;
 }
 
-#projects-col-2 {
+#projects-col-3 {
     float: left;
-    width: 350px;
+    width: 300px;
 }
 
 #right {
@@ -167,6 +167,16 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     font-family: 'PT Sans', sans-serif;
     color: #000;
     font-size: 13px;
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+.full {
+    width: 100%;
+    float: left;
 }
 
 .paragraph {
@@ -245,14 +255,27 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 /* MEDIA QUERIES */
 
 @media (max-width: 700px) {
-    #left {
-        padding: 30px 50px;
+
+    #projects {
+        padding: 0px 30px;
+    }
+
+    #about {
+        padding: 30px 0px 0px 30px;
     }
 }
 
 @media (max-width: 500px) {
     #index {
         background: url(images/spine-mobile.jpg) no-repeat top center fixed #000;
+    }
+
+    #projects {
+        padding: 0px 30px;
+    }
+
+    #about {
+        padding: 30px 0px 0px 30px;
     }
 
     #left {

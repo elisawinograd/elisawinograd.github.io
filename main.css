@@ -59,6 +59,7 @@ body {
     font-size: 13px;
     float: left;
     width: 300px;
+    padding-right: 30px;
 }
 
 .project-home {
@@ -316,9 +317,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 @media (max-width: 500px) {
-    #index {
-        background: url(images/spine-mobile.jpg) no-repeat top center fixed #000;
-    }
 
     #projects {
         padding: 0px 30px;
@@ -359,5 +357,12 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         width: 100%;
         position: fixed;
         padding: 20px 30px;
+    }
+
+    #index{
+        /*background: url(images/wrist-web-cropped.jpg) no-repeat top fixed;*/
+        top:0;
+        background-color:#262626;
+        margin: 30px 20px;
     }
 }

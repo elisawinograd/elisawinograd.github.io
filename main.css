@@ -1,9 +1,8 @@
 #index{
-    background: url(images/spine.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*background: url(images/wrist-web-cropped.jpg) no-repeat top fixed;*/
+    top:0;
+    background-color:#262626;
+    margin: 30px 100px;
 }
 
 #project{
@@ -21,24 +20,80 @@ body {
 #about {
 	float: left;
     width: 350px;
-    padding: 30px 300px 0px 100px;
 }
+
+#footer-home {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    color: #fafafa;
+    padding: 10px 0px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    opacity: .5;
+}
+
+.inline-link a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* PROJECTS HOME */
 
 #projects {
     float: left;
-    padding: 0px 100px;
     width: 100%;
 }
 
 #projects-col-1, #projects-col-2 {
+    font-size: 13px;
     float: left;
     width: 300px;
     padding-right: 30px;
 }
 
 #projects-col-3 {
+    font-size: 13px;
     float: left;
     width: 300px;
+}
+
+.project-home {
+}
+
+
+.project-link{
+    font-family: 'PT Sans', sans-serif;
+    color: #ffe500;
+    font-size: 17px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.project-home-title{
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.grid-home{
+    width: 270px;
+    margin: 10px 0px;
+    border: 1px solid #505050;
+    opacity: 1;
+}
+
+.grid-home:hover{
+    opacity: 1;
 }
 
 #right {
@@ -81,19 +136,6 @@ body {
 	color: #fff;
 	font-size: 15px;
     text-decoration: none;
-}
-
-.sub-link{
-    font-family: 'PT Sans', sans-serif;
-    color: #ffe500;
-    font-size: 17px;
-    padding-top: 5px;
-    text-decoration: none;
-}
-
-.sub-link a:hover,
-#content-about a:hover {
-    text-decoration: underline;
 }
 
 article {
@@ -190,8 +232,9 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 .project-title {
     font-family: 'PT Sans', sans-serif;
     font-size: 22px;
+    float: left;
     color: #000;
-    width: auto;
+    width: 100%;
 }
 
 .paragraph-title {
@@ -200,6 +243,13 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     color: #000;
     padding-top: 20px;
     width: auto;
+}
+
+.inline-link-projects {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: #000;
+    text-decoration: underline;
 }
 
 .img-caption {

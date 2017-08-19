@@ -87,7 +87,7 @@ body {
 
 .grid-home{
     width: 270px;
-    margin: 10px 0px;
+    margin-top: 20px;
     border: 1px solid #505050;
     opacity: 1;
 }

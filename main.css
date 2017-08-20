@@ -29,8 +29,6 @@ body {
     padding: 10px 0px;
     width: 100%;
     float: left;
-    text-align: center;
-    margin-top: 50px;
     opacity: .5;
 }
 
@@ -48,21 +46,16 @@ body {
     width: 100%;
 }
 
-#projects-col-1, #projects-col-2 {
-    font-size: 13px;
+#projects-col-1{
+    font-size: 15px;
     float: left;
-    width: 300px;
-    padding-right: 30px;
-}
-
-#projects-col-3 {
-    font-size: 13px;
-    float: left;
-    width: 300px;
-    padding-right: 30px;
 }
 
 .project-home {
+	float: left;
+    width: 350px;
+    min-height: 500px;
+    margin: 0px 50px 0 0;
 }
 
 
@@ -87,7 +80,7 @@ body {
 }
 
 .grid-home{
-    width: 270px;
+    width: 350px;
     margin-top: 20px;
     border: 1px solid #505050;
     opacity: 1;
@@ -225,7 +218,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 .paragraph {
     font-family: 'PT Sans', sans-serif;
     color: #000;
-    width: 70%;
+    width: 90%;
     font-size: 15px;
     text-decoration: none;
 }
@@ -283,6 +276,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
 .project-article {
     float:left;
+    padding-right: 25%;
 }
 
 .link-projects {
@@ -296,7 +290,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     font-size: 10px;
     color: #000;
     padding: 10px 0px;
-    background-color: #fafafa;
     width: 100%;
     float: right;
     text-align: center;
@@ -305,7 +298,41 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1300px) {
+
+    .grid-home {
+	    width: 350px;
+	    margin-top: 20px;
+	    border: 1px solid #505050;
+	    opacity: 1;
+	}
+
+	.project-home {
+	    float: left;
+	    width: 400px;
+	    min-height: 400px;
+	    margin: 0px;
+	}
+
+	#projects-col-1 {
+	    font-size: 15px;
+	    float: left;
+	}
+
+	.project-home-title {
+	    font-size: 17px;
+	}
+
+	.project-link {
+		font-size: 19px;
+	}
+}
+
 @media (max-width: 700px) {
+
+	#index {
+		margin: 0px;
+	}
 
     #projects {
         padding: 0px 30px;
@@ -313,17 +340,22 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
     #about {
         padding: 30px 0px 0px 30px;
+    }
+
+    .project-img-small {
+        float: left;
+        width: 100%;
     }
 }
 
 @media (max-width: 500px) {
 
     #projects {
-        padding: 0px 30px;
+        padding: 0px 0px 0px 15px;
     }
 
     #about {
-        padding: 30px 0px 0px 30px;
+        padding: 30px 0px 0px 15px;
     }
 
     #left {
@@ -334,14 +366,13 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         padding: 5px 0;
     }
 
-    .project-img-small {
-        float: left;
-        width: 100%;
-    }
-
     #projects-container {    
         padding: 30px 30px;
         margin-bottom: 50px;
+    }
+
+    .project-home {
+    	width: 300px;
     }
 
     .paragraph {
@@ -357,12 +388,5 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         width: 100%;
         position: fixed;
         padding: 20px 30px;
-    }
-
-    #index{
-        /*background: url(images/wrist-web-cropped.jpg) no-repeat top fixed;*/
-        top:0;
-        background-color:#262626;
-        margin: 30px 20px;
     }
 }

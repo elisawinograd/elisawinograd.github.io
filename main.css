@@ -390,4 +390,8 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         position: fixed;
         padding: 20px 30px;
     }
+	
+     #footer-home {	
+	text-align: center;
+    }
 }

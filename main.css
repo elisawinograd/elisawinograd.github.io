@@ -384,6 +384,10 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         font-size: 15px;
         text-decoration: none;
     }
+    
+    .project-article {
+	padding-right: 0px;
+    }
 
     .header {
         background-color: #fafafa;
@@ -391,7 +395,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         position: fixed;
         padding: 20px 30px;
     }
-	
+
      #footer-home {	
 	text-align: center;
     }

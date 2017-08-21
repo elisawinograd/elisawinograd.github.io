@@ -52,7 +52,7 @@ body {
 }
 
 .project-home {
-	float: left;
+    float: left;
     width: 350px;
     min-height: 500px;
     margin: 0px 50px 0 0;
@@ -303,7 +303,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     	.grid-home {
 	    width: 300px;
     	    margin-top: 20px;
-	    margin-right: 100px;
     	    border: 1px solid #505050;
     	    opacity: 1;
 	}
@@ -312,7 +311,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	    float: left;
 	    width: 250px;
 	    min-height: 500px;
-	    margin: 0px;
+	    margin-right: 100px;
 	}
 
 	#projects-col-1 {

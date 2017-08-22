@@ -360,7 +360,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     }
 
     #about {
-        padding: 30px 0px 0px 10px;
+        padding: 10px 0px 0px 10px;
 	width: 300px;
     }
 

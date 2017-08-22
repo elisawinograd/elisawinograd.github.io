@@ -352,6 +352,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
     #projects {
         padding: 0px 0px 0px 15px;
+	width: 300px;
     }
 
     #about {

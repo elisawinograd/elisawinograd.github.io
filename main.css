@@ -18,7 +18,11 @@ body {
 }
 
 #about {
+}
+
+.about {
     float: left;
+    padding-right: 50px;
     width: 350px;
 }
 
@@ -47,7 +51,7 @@ body {
 }
 
 #projects-col-1{
-    font-size: 15px;
+    font-size: 17px;
     float: left;
 }
 
@@ -67,7 +71,7 @@ body {
     text-decoration: none;
 }
 
-.project-home-title{
+.project-home-title {
     font-family: 'PT Sans', sans-serif;
     color: #fff;
     font-size: 15px;
@@ -100,7 +104,7 @@ body {
 .link a, 
 .link-about a {
 	font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
+    font-size: 17px;
 	color: #fff;
     width: 155px;
 }
@@ -123,13 +127,16 @@ body {
 /* TOGGLE */
 
 #content-about,
-#content-about a,
 #content-projects,
 #content-photo{
 	font-family: 'PT Sans', sans-serif;
 	color: #fff;
-	font-size: 15px;
+	font-size: 17px;
     text-decoration: none;
+}
+
+#content-about a {
+    color: #ffe500;
 }
 
 article {
@@ -178,8 +185,7 @@ input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     display: inherit;
     visibility: visible;
-    color: #000000;
-    background-color: #ffe500;
+    color: #ffe500;
 }
 
 /* PROJECTS */
@@ -219,7 +225,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     font-family: 'PT Sans', sans-serif;
     color: #000;
     width: 90%;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -300,12 +306,28 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
 @media (max-width: 1300px) {
 
-    	.grid-home {
+    .grid-home {
 	    width: 300px;
-    	    margin-top: 20px;
-    	    border: 1px solid #505050;
-    	    opacity: 1;
+    	margin-top: 20px;
+    	border: 1px solid #505050;
+    	opacity: 1;
 	}
+
+    input[type=checkbox]:checked ~ [for="expand-photo"] span:last-of-type,
+    input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
+    input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
+        font-size: 17px;
+    }
+
+    .link, 
+    .link-about, 
+    .link a, 
+    .link-about a {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 17px;
+        color: #fff;
+        width: 155px;
+    }
 
 	.project-home {
 	    float: left;
@@ -314,10 +336,16 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	    margin-right: 100px;
 	}
 
-	#projects-col-1 {
-	    font-size: 15px;
+	#projects-col-1, #content-about {
+	    font-size: 17px;
 	    float: left;
 	}
+
+    .about {
+        float: left;
+        padding-right: 50px;
+        width: 300px;
+    }
 
 	.project-home-title {
 	    font-size: 17px;
@@ -346,22 +374,26 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         float: left;
         width: 100%;
     }
+
+    #footer-home {  
+        padding: 0px 30px;
+    }
 }
 
 @media (max-width: 500px) {
 
     #projects {
         padding: 0px 10px 0px 10px;
-	width: 300px;
+	    width: 300px;
     }
 	
     #projects-col-1 {
-	width: 300px;
+        width: 300px;
     }
 
     #about {
         padding: 10px 0px 0px 10px;
-	width: 300px;
+        width: 300px;
     }
 
     #left {
@@ -379,7 +411,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
     .project-home {
     	width: 300px;
-	min-height: 0px;
+        min-height: 0px;
     }
 
     .paragraph {
@@ -391,7 +423,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     }
     
     .project-article {
-	padding-right: 0px;
+        padding-right: 0px;
     }
 
     .header {
@@ -402,6 +434,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     }
 
      #footer-home {	
-	text-align: center;
+        padding: 0px 10px;
     }
 }

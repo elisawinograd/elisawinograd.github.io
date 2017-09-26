@@ -123,6 +123,13 @@ body {
     text-decoration: underline;
 }
 
+/* BLOG HOME */
+
+#blog {
+    float: left;
+    width: 100%;
+}
+
 /* TOGGLE */
 
 #content-about,
@@ -165,21 +172,21 @@ input[type=checkbox]:checked ~ section {
     visibility: visible;
 }
 
-[for="expand-photo"] span:last-of-type,
+[for="expand-blog"] span:last-of-type,
 [for="expand-projects"] span:last-of-type,
 [for="expand-about"] span:last-of-type {
     display: none;
     visibility: hidden;
 }
 
-input[type=checkbox]:checked ~ [for="expand-photo"] span:first-of-type,
+input[type=checkbox]:checked ~ [for="expand-blog"] span:first-of-type,
 input[type=checkbox]:checked ~ [for="expand-projects"] span:first-of-type, 
 input[type=checkbox]:checked ~ [for="expand-about"] span:first-of-type {
     display: none;
     visibility: hidden;
 }
 
-input[type=checkbox]:checked ~ [for="expand-photo"] span:last-of-type,
+input[type=checkbox]:checked ~ [for="expand-blog"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     display: inherit;

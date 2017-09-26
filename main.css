@@ -22,8 +22,7 @@ body {
 
 .about {
     float: left;
-    padding-right: 50px;
-    width: 350px;
+    width: 400px;
 }
 
 #footer-home {
@@ -340,12 +339,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	    font-size: 17px;
 	    float: left;
 	}
-
-    .about {
-        float: left;
-        padding-right: 50px;
-        width: 300px;
-    }
 
 	.project-home-title {
 	    font-size: 17px;

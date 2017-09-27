@@ -3,6 +3,7 @@
     top:0;
     background-color:#262626;
     margin: 30px 100px;
+    overflow-y: hidden;
 }
 
 #project{
@@ -310,38 +311,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     	margin-top: 20px;
     	border: 1px solid #505050;
     	opacity: 1;
-	}
-
-    input[type=checkbox]:checked ~ [for="expand-photo"] span:last-of-type,
-    input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
-    input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
-        font-size: 17px;
-    }
-
-    .link, 
-    .link-about, 
-    .link a, 
-    .link-about a {
-        font-family: 'Roboto Mono', monospace;
-        font-size: 17px;
-        color: #fff;
-        width: 155px;
-    }
-
-	.project-home {
-	    float: left;
-	    width: 250px;
-	    min-height: 500px;
-	    margin-right: 100px;
-	}
-
-	#projects-col-1, #content-about {
-	    font-size: 17px;
-	    float: left;
-	}
-
-	.project-home-title {
-	    font-size: 17px;
 	}
 
 	.project-link {

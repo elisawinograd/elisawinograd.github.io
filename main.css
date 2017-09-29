@@ -157,6 +157,12 @@ body {
     font-size: 15px;  
 }
 
+.post-intro a{
+    color: #fff;
+    font-size: 15px;  
+    text-decoration: underline;
+}
+
 /* TOGGLE */
 
 #content-about,

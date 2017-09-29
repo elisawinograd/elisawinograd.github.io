@@ -44,7 +44,7 @@ body {
 
 /* FILTERS */
 
-.bttn {
+.bttn-blog, .bttn-projects {
     border: 1px solid #fff;
     color: #fff;
     background-color: transparent;
@@ -52,7 +52,10 @@ body {
     margin: 20px 5px 10px 0px;
 }
 
-.bttn:focus, .bttn:hover {
+.bttn-blog:focus, 
+.bttn-blog:hover,
+.bttn-projects:focus, 
+.bttn-projects:hover {
     outline: none;
     color: #262626;
     background-color: #fff;
@@ -149,7 +152,7 @@ body {
 
 .post {
     float: left;
-    width: 350px;
+    width: 500px;
     margin: 0px 50px 0 0;
 }
 

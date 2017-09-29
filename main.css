@@ -3,6 +3,7 @@
     top:0;
     background-color:#262626;
     margin: 30px 100px;
+    overflow-x: hidden;
 }
 
 #project{
@@ -379,38 +380,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     	opacity: 1;
 	}
 
-    input[type=checkbox]:checked ~ [for="expand-photo"] span:last-of-type,
-    input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
-    input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
-        font-size: 17px;
-    }
-
-    .link, 
-    .link-about, 
-    .link a, 
-    .link-about a {
-        font-family: 'Roboto Mono', monospace;
-        font-size: 17px;
-        color: #fff;
-        width: 155px;
-    }
-
-	.project-home {
-	    float: left;
-	    width: 250px;
-	    min-height: 500px;
-	    margin-right: 100px;
-	}
-
-	#projects-col-1, #content-about {
-	    font-size: 17px;
-	    float: left;
-	}
-
-	.project-home-title {
-	    font-size: 17px;
-	}
-
 	.project-link {
 	   font-size: 19px;
 	}
@@ -453,6 +422,10 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
     #about {
         padding: 10px 0px 0px 10px;
+        width: 300px;
+    }
+
+    .about {
         width: 300px;
     }
 

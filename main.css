@@ -43,6 +43,25 @@ body {
     text-decoration: underline;
 }
 
+/* FILTERS */
+
+.bttn-blog, .bttn-projects {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 14px;
+    margin: 20px 5px 10px 0px;
+}
+
+.bttn-blog:focus, 
+.bttn-blog:hover,
+.bttn-projects:focus, 
+.bttn-projects:hover {
+    outline: none;
+    color: #262626;
+    background-color: #fff;
+}
+
 /* PROJECTS HOME */
 
 #projects {
@@ -57,7 +76,7 @@ body {
 
 .project-home {
     float: left;
-    width: 350px;
+    width: 300px;
     min-height: 500px;
     margin: 0px 50px 0 0;
 }
@@ -84,7 +103,7 @@ body {
 }
 
 .grid-home{
-    width: 350px;
+    width: 300px;
     margin-top: 20px;
     border: 1px solid #505050;
     opacity: 1;
@@ -124,15 +143,63 @@ body {
     text-decoration: underline;
 }
 
+/* BLOG HOME */
+
+#blog {
+    font-family: 'PT Sans', sans-serif;
+    float: left;
+    width: 100%;
+}
+
+.post {
+    float: left;
+    width: 500px;
+    margin: 0px 50px 0 0;
+}
+
+.post-title {
+    color: #ffe500;
+    font-size: 17px;
+    text-decoration: none;
+    -webkit-margin-after: 0px;
+}
+
+.post-date {
+    color: #fff;
+    font-size: 15px;    
+    text-decoration: none;
+    -webkit-margin-after: 0px;
+    -webkit-margin-before: 0px;
+}
+
+.post-intro {
+    color: #fff;
+    font-size: 15px;  
+}
+
+.post-intro a{
+    color: #fff;
+    font-size: 15px;  
+    text-decoration: underline;
+}
+
 /* TOGGLE */
 
 #content-about,
 #content-projects,
-#content-photo{
+#content-blog{
 	font-family: 'PT Sans', sans-serif;
 	color: #fff;
 	font-size: 17px;
     text-decoration: none;
+    float: left;
+    border-bottom: 1px dotted #f0f0f0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#content-about {
+
 }
 
 #content-about a {
@@ -166,21 +233,21 @@ input[type=checkbox]:checked ~ section {
     visibility: visible;
 }
 
-[for="expand-photo"] span:last-of-type,
+[for="expand-blog"] span:last-of-type,
 [for="expand-projects"] span:last-of-type,
 [for="expand-about"] span:last-of-type {
     display: none;
     visibility: hidden;
 }
 
-input[type=checkbox]:checked ~ [for="expand-photo"] span:first-of-type,
+input[type=checkbox]:checked ~ [for="expand-blog"] span:first-of-type,
 input[type=checkbox]:checked ~ [for="expand-projects"] span:first-of-type, 
 input[type=checkbox]:checked ~ [for="expand-about"] span:first-of-type {
     display: none;
     visibility: hidden;
 }
 
-input[type=checkbox]:checked ~ [for="expand-photo"] span:last-of-type,
+input[type=checkbox]:checked ~ [for="expand-blog"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     display: inherit;

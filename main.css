@@ -42,6 +42,22 @@ body {
     text-decoration: underline;
 }
 
+/* FILTERS */
+
+.bttn {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 14px;
+    margin: 20px 5px 10px 0px;
+}
+
+.bttn:focus, .bttn:hover {
+    outline: none;
+    color: #262626;
+    background-color: #fff;
+}
+
 /* PROJECTS HOME */
 
 #projects {

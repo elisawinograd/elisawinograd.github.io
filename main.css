@@ -75,7 +75,7 @@ body {
 
 .project-home {
     float: left;
-    width: 350px;
+    width: 300px;
     min-height: 500px;
     margin: 0px 50px 0 0;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 .grid-home{
-    width: 350px;
+    width: 300px;
     margin-top: 20px;
     border: 1px solid #505050;
     opacity: 1;

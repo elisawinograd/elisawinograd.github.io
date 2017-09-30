@@ -30,7 +30,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 10px;
     color: #fafafa;
-    padding: 10px 0px;
+    padding: 50px 0px 10px 0;
     width: 100%;
     float: left;
     opacity: .5;
@@ -406,6 +406,10 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
     #footer-home {  
         padding: 0px 30px;
+    }
+
+    .project-home {
+        min-height: 300px;
     }
 }
 

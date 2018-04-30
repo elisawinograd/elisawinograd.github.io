@@ -313,7 +313,15 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     width: auto;
 }
 
-.inline-link-projects {
+.paragraph a, .paragraph a:visited {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #000;
+    text-decoration: underline;
+}
+
+
+.inline-link-projects, .paragraph a, .paragraph a:visited {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     color: #000;

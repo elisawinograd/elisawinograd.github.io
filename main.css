@@ -78,7 +78,7 @@ body {
 .project-home {
     float: left;
     width: 300px;
-    min-height: 550px;
+    min-height: 600px;
     margin: 0px 50px 0 0;
 }
 
@@ -321,7 +321,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 
-.inline-link-projects, .paragraph a, .paragraph a:visited {
+.inline-link-projects {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     color: #000;

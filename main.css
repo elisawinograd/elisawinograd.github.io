@@ -427,23 +427,24 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 @media (max-width: 500px) {
-
-    #projects, #blog {
-        padding: 0px 10px 0px 10px;
-	    width: 300px;
-    }
-	
-    #projects-col-1 {
-        width: 300px;
-    }
-
-    #about {
+	 #about {
         padding: 10px 0px 0px 10px;
         width: 300px;
     }
 
     .about {
         width: 300px;
+    }
+
+    .header {
+        background-color: #fafafa;
+        width: 100%;
+        position: fixed;
+        padding: 20px 30px;
+    }
+
+     #footer-home {	
+        padding: 0px 10px;
     }
 
     #left {
@@ -455,6 +456,20 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     	margin-bottom: 10px;
 	}
+
+	.bttn-blog, .bttn-projects {
+		padding: 10px;
+	}
+
+    #projects, #blog {
+        padding: 0px 10px 0px 10px;
+	    width: 300px;
+    }
+	
+    #projects-col-1 {
+        width: 300px;
+    }
+
 
     .sub-link a {
         padding: 5px 0;
@@ -490,14 +505,4 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     	width: 300px;
 	}
 
-    .header {
-        background-color: #fafafa;
-        width: 100%;
-        position: fixed;
-        padding: 20px 30px;
-    }
-
-     #footer-home {	
-        padding: 0px 10px;
-    }
 }

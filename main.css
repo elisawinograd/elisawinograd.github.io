@@ -23,6 +23,7 @@ body {
 
 .about {
     float: left;
+    margin-top: 0px;
     width: 400px;
 }
 
@@ -51,7 +52,7 @@ body {
     color: #fff;
     background-color: transparent;
     font-size: 14px;
-    margin: 20px 5px 10px 0px;
+    margin: 0px 5px 10px 0px;
 }
 
 .bttn-blog:focus, 
@@ -162,6 +163,7 @@ body {
     color: #ffe500;
     font-size: 17px;
     text-decoration: none;
+    margin-top: 0px;
     -webkit-margin-after: 0px;
 }
 
@@ -251,9 +253,11 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:first-of-type {
 input[type=checkbox]:checked ~ [for="expand-blog"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
 input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
-    display: inherit;
     visibility: visible;
     color: #ffe500;
+    display: block;
+    margin-bottom: 10px;
+    width:100%;
 }
 
 /* PROJECTS */
@@ -400,7 +404,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 		margin: 0px;
 	}
 
-    #projects {
+    #projects, #blog {
         padding: 0px 30px;
     }
 
@@ -424,13 +428,9 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
 @media (max-width: 500px) {
 
-    #projects {
+    #projects, #blog {
         padding: 0px 10px 0px 10px;
 	    width: 300px;
-    }
-
-    #blog {
-    	padding: 0px 10px;
     }
 	
     #projects-col-1 {
@@ -449,6 +449,12 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     #left {
         padding: 30px 10px;
     }
+
+    input[type=checkbox]:checked ~ [for="expand-blog"] span:last-of-type,
+	input[type=checkbox]:checked ~ [for="expand-projects"] span:last-of-type,
+	input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
+    	margin-bottom: 10px;
+	}
 
     .sub-link a {
         padding: 5px 0;
@@ -471,10 +477,18 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         font-size: 15px;
         text-decoration: none;
     }
+
+    .paragraph a, .paragraph a:visited {
+    	font-size: 15px;
+	}
     
     .project-article {
         padding-right: 0px;
     }
+
+    .post {
+    	width: 300px;
+	}
 
     .header {
         background-color: #fafafa;

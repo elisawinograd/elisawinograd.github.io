@@ -78,7 +78,7 @@ body {
 
 .project-home {
     float: left;
-    width: 300px;
+    width: 250px;
     min-height: 600px;
     margin: 0px 50px 0 0;
 }
@@ -105,7 +105,7 @@ body {
 }
 
 .grid-home{
-    width: 300px;
+    width: 250px;
     margin-top: 20px;
     border: 1px solid #505050;
     opacity: 1;
@@ -387,7 +387,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 @media (max-width: 1300px) {
 
     .grid-home {
-	    width: 300px;
     	margin-top: 20px;
     	border: 1px solid #505050;
     	opacity: 1;

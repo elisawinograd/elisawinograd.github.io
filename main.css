@@ -446,7 +446,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 		margin: 0px;
 	}
 
-    #content-projects, #content-blog, #content-about {
+    #content-projects, #content-blog, #content-about, .filters-projects {
         display: block;
         margin: 0 20px;
     }

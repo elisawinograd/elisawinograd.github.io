@@ -439,7 +439,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
 
 	#index {
 		margin: 0px;
@@ -470,25 +470,26 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         padding: 0px 30px;
     }
 
+    .project-home, .grid-home {
+    	width: 100%;
+
+    }
+
     #about {
         padding: 30px 0px 0px 30px;
     }
 
-    .project-img-small {
-        float: left;
-        width: 100%;
-    }
 
     #footer-home {  
         padding: 0px 30px;
     }
 
     .project-home {
-        min-height: 300px;
+        min-height: 500px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
 	#about {
         padding: 10px 0px 0px 10px;
         width: 300px;
@@ -542,8 +543,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         margin-bottom: 50px;
     }
 
-    .project-home {
-    	width: 300px;
+    .project-home, .grid-home {
         min-height: 0px;
     }
 

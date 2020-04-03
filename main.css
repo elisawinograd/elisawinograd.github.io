@@ -27,6 +27,10 @@ body {
     width: 400px;
 }
 
+#title {
+    border-bottom: 1px solid #f0f0f0;
+}
+
 nav {
     background-color: #000;
     float: left;

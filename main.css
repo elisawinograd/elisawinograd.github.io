@@ -65,27 +65,32 @@ nav {
 }
 
 #footer-home {
-    background-color: #262626;
-    bottom: 0;
     color: #fafafa;
     font-family: 'PT Sans', sans-serif;
     font-size: 10px;
-    padding: 10px;
-    opacity: .9;
+    padding: 10px 0;
+    opacity: .5;
     text-align: center;
-    position: absolute;
     width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #262626;
 }
 
 #footer-projects {
     color: #fafafa;
-    float:left;
     font-family: 'PT Sans', sans-serif;
     font-size: 10px;
-    padding: 50px 0px 10px 0;
+    padding: 10px 0;
     opacity: .5;
     text-align: center;
     width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #262626;
+
 }
 
 .inline-link a{

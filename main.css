@@ -2,7 +2,6 @@
     /*background: url(images/wrist-web-cropped.jpg) no-repeat top fixed;*/
     top:0;
     background-color:#262626;
-    margin: 30px 0px 30px 30px;
     overflow-x: hidden;
 }
 
@@ -34,36 +33,39 @@ body {
 nav {
     background-color: #000;
     float: left;
-    margin: 0 20px 20px 00px;
-    padding: 10px;
+    margin: 0 20px 20px 0px;
+    padding: 10px 10px 10px 2%;
+    width: 98%;
+    position: fixed;
+    opacity: .9;
 }
 
 .nav-link {
     color: #fff;
     font-family: 'Roboto Mono', monospace;
-    font-size: 17px;
-    float: left;
+    font-size: 16px;
     text-decoration: none;
-    padding:5px 0;
-    width:100%;
+    padding: 10px 15px 0px 0px;
+    float: left;
 }
 
 
-.nav-link a:hover, a:active{
+.nav-link:hover, .nav-link:active{
     color: #ffe500;
 }
 
 .title {
     color: #ffe500;
     font-family: 'PT Sans', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     margin: 0px;
+    padding: 10px 0;
 }
 
 .sub-title {
     color: #f0f0f0;
     font-family: 'PT Sans', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     margin:0px;
     padding-bottom: 10px;
 }
@@ -107,7 +109,9 @@ nav {
 /* FILTERS */
 
 .filters-projects {
-
+    float: left;
+    display: block;
+    width: 100%;
 }
 
 .bttn-blog, .bttn-projects {
@@ -116,6 +120,7 @@ nav {
     background-color: transparent;
     font-size: 14px;
     margin: 0px 5px 10px 0px;
+    padding: 8px 22px;
 }
 
 .bttn-blog:focus, 
@@ -141,7 +146,7 @@ nav {
 .project-home {
     float: left;
     width: 250px;
-    min-height: 550px;
+    min-height: 365px;
     margin: 0px 30px 0 0;
 }
 
@@ -149,15 +154,19 @@ nav {
 .project-link{
     font-family: 'PT Sans', sans-serif;
     color: #ffe500;
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 5px;
     text-decoration: none;
+}
+
+.project-about {
+    display: none;
 }
 
 .project-home-title, .project-about {
     font-family: 'PT Sans', sans-serif;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -249,8 +258,9 @@ nav {
 	font-size: 17px;
     text-decoration: none;
     float: left;
-    width: 70%;
     margin-bottom: 20px;
+    margin-left: 2%;
+    margin: 9% 9% 0% 2%;
 }
 
 #content-about {

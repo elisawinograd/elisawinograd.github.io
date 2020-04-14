@@ -472,10 +472,10 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     }
 
     #content-about,
-#content-projects,
-#content-blog{
-    margin: 17% 9% 0% 2%;
-}
+    #content-projects,
+    #content-blog{
+        margin: 145px 9% 0% 2%;
+    }
 
     nav {
         width: 97%;

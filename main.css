@@ -467,10 +467,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     	border: 1px solid #505050;
     	opacity: 1;
 	}
-
-	.project-link {
-	   font-size: 19px;
-	}
 }
 
 @media (max-width: 760px) {

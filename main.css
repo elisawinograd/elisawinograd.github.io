@@ -112,6 +112,7 @@ nav {
     float: left;
     display: block;
     width: 100%;
+    margin: 125px 0% 0% 2%;
 }
 
 .bttn-blog, .bttn-projects {
@@ -151,12 +152,15 @@ nav {
 }
 
 
-.project-link{
+.project-link, .blog-link{
     font-family: 'PT Sans', sans-serif;
     color: #ffe500;
     font-size: 16px;
-    padding-top: 5px;
     text-decoration: none;
+}
+
+.blog-link{
+    padding: 5px;
 }
 
 .project-about {
@@ -224,22 +228,23 @@ nav {
 .post-title {
     color: #ffe500;
     font-size: 17px;
+    margin: 0px;
     text-decoration: none;
-    margin-top: 0px;
-    -webkit-margin-after: 0px;
 }
 
 .post-date {
     color: #fff;
-    font-size: 15px;    
+    font-size: 15px;   
+    margin:0px; 
     text-decoration: none;
-    -webkit-margin-after: 0px;
-    -webkit-margin-before: 0px;
 }
 
 .post-intro {
     color: #fff;
+    border-bottom: 1px solid #f0f0f0;
     font-size: 15px;  
+    margin:0px;
+    padding-bottom: 20px;
 }
 
 .post-intro a{
@@ -250,9 +255,21 @@ nav {
 
 /* TOGGLE */
 
+#content-projects{
+    margin: 0% 9% 5% 2%;
+}
+
+#content-blog {
+    margin: 100px 9% 5% 2%;
+}
+
+#content-about {
+    margin: 125px 9% 5% 2%;
+}
+
 #content-about,
-#content-projects,
-#content-blog{
+#content-blog, 
+#content-projects {
     font-family: 'PT Sans', sans-serif;
 	color: #fff;
 	font-size: 17px;
@@ -260,11 +277,6 @@ nav {
     float: left;
     margin-bottom: 20px;
     margin-left: 2%;
-    margin: 9% 9% 0% 2%;
-}
-
-#content-about {
-
 }
 
 #content-about a {
@@ -475,6 +487,14 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     #content-projects,
     #content-blog{
         margin: 145px 9% 0% 2%;
+    }
+
+    .filters-projects {
+        margin: 145px 0% 5% 2%;
+    }
+
+    #content-about{
+        margin: 130px 9% 5% 2%;
     }
 
     nav {

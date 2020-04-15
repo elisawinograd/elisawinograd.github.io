@@ -479,14 +479,22 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         border-bottom: none;
     }
 
-    #content-about,
-    #content-projects,
-    #content-blog{
+    #content-about
+    {
         margin: 145px 9% 0% 2%;
     }
 
+    #content-blog {
+        margin: 110px 9% 0% 2%;
+    }
+
+    #content-projects,
+    {
+        margin: 0px 9% 0% 2%;
+    }
+
     .filters-projects {
-        margin: 145px 0% 5% 2%;
+        margin: 145px 0% 0% 2%;
     }
 
     #content-about{
@@ -524,7 +532,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
 
     #footer-home {  
-        padding: 0px 30px;
+        padding: 10px 30px;
     }
 
     .project-home {

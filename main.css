@@ -49,6 +49,13 @@ nav {
     float: left;
 }
 
+.nav-link:active
+{
+    color: #ffe500;
+    font-style: underline;
+    border-bottom: 2px solid #fff;
+}
+
 
 .nav-link:hover
 {
@@ -56,9 +63,9 @@ nav {
 }
 
 
-.nav-link:focus
+.nav-link:visited
 {
-    color: #ffe500;
+    color: #fff;
     font-style: underline;
     border-bottom: 2px solid #fff;
 }

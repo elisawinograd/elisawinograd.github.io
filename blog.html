@@ -23,19 +23,15 @@
 	<body id="index">
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/filters.js"></script>
-		<nav>
-			<a href="index.html" style="text-decoration:none">
-				<div id="title">
-					<p class="title"> Elisa Winograd </p> 
-					<!--<p class="sub-title"> Creative Designer / Sustainability Enthusiast </p> -->
-				</div>
-			</a>
-			<div id="links">
-				<a class="nav-link" href="about.html"> about </a>
-				<a class="nav-link" href="index.html"> designs </a>
-				<a class="nav-link" href="blog.html"> blog </a>
+		<!--Navigation bar-->
+			<div id="nav-placeholder">
 			</div>
-		</nav>
+			<script>
+			$(function(){
+			  $("#nav-placeholder").load("nav.html");
+			});
+			</script>
+		<!--end of Navigation bar-->
 		<!--<div id="filters-projects">
 						<button class="active bttn-projects" id="all-projects"> All </button>
 						<button class="bttn-projects" id="projects-category1"> UX/UI </button>

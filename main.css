@@ -59,6 +59,8 @@ nav {
 .nav-link:focus
 {
     color: #ffe500;
+    font-style: underline;
+    border-bottom: 2px solid #fff;
 }
 
 .title {

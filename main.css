@@ -54,7 +54,7 @@ nav {
     color: #ffe500;
 }
 
-.nav-link:active{
+.nav-link a:active{
     color: #ffe500;
 }
 

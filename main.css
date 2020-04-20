@@ -50,11 +50,10 @@ nav {
 }
 
 
-.nav-link:hover {
-    color: #ffe500;
-}
-
-.nav-link a:active{
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
+{
     color: #ffe500;
 }
 

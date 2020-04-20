@@ -1,37 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title> Elisa Winograd </title>
-
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<meta name="Elisa Winograd" content="My Website">
-
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Mono" rel="stylesheet">
-	    <link rel="stylesheet" href="main.css">
-	    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/herb_1f33f.png" type="image/png" >
-	    <script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-86878575-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		
-		<script src="js/jquery-3.2.1.min.js"></script>
-		<script src="js/filters.js"></script>
+		<!--Navigation bar-->
+			<div id="head-placeholder">
+			</div>
+			<script>
+			$(function(){
+			  $("#head-placeholder").load("head.html");
+			});
+			</script>
+		<!--end of Navigation bar-->
 	</head>
 	<body id="index">
-		<div class="filters-projects">
-			<button class="active bttn-projects" id="all-projects"> All </button>
-			<button class="bttn-projects" id="projects-category1"> UX/UI </button>
-			<button class="bttn-projects" id="projects-category2"> Mobile </button>
-			<button class="bttn-projects" id="projects-category3"> Coding </button>
-			<button class="bttn-projects" id="projects-category4"> Branding </button>
-			<button class="bttn-projects" id="projects-category5"> Illustration </button>
-		</div>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/filters.js"></script>
 		<!--Navigation bar-->
 			<div id="nav-placeholder">
 			</div>
@@ -40,65 +22,20 @@
 			  $("#nav-placeholder").load("nav.html");
 			});
 			</script>
-		<!--end of Navigation bar-->	
-		<div id="content-projects"> 	
-				<div class="project-home projects-category1 projects-category4">
-					<a class="project-link" href="hygh.html" target="_blank"> <img class="grid-home" src="images/projects/hygh.jpg"> 
-					<p class="project-home-title"> HYGH - Outdoor Advertisement </a> </br> #Branding #UX/UI #Marketing</p>
-					<p class="project-about"> Re-design of website and marketing material </br> <a class="link-view" href="hygh.html" target="_blank"> View project </a> </p>
-				</div>					
-				<div class="project-home projects-category1 projects-category2 projects-category4 projects-category5">
-					<a class="project-link" href="kugu_customer-app.html" target="_blank"> <img class="grid-home" src="images/projects/kugu.jpg"> 
-					<p class="project-home-title"> KUGU: Smart Home App </a> </br> #iOS #Android #Branding #UX/UI #Illustration</p>
-					<p class="project-about"> Designs for the first versions of the KUGU Smart Home Customer App </br> <a class="link-view" href="kugu_customer-app.html" target="_blank"> View project </a> </p>
-				</div>
-				<div class="project-home projects-category1">
-					<a class="project-link" href="ms_signup.html" target="_blank"> <img class="grid-home" src="images/projects/marley_funnel.jpg"> 
-					<p class="project-home-title"> Marley Spoon - Sign Up Flow </a> </br> #UX #UI #Prototyping #User Testing</p>
-					<p class="project-about"> Prototyping and user testing new versions of the sign up flow in order to acquire more customers at Marley Spoon. </br> 
-					<a class="link-view" href="ms_signup.html" target="_blank"> View project </a> </p>
-				</div>	
-				<div class="project-home projects-category1 projects-category2 projects-category5">
-					<a class="project-link" href="friendhood_surprise.html" target="_blank"> <img class="grid-home" src="images/projects/fh_surprise.jpg"> 
-					<p class="project-home-title"> FriendHood Surprise Feature </a> </br> #iOS #Android #Animation #Illustration</p>
-					<p class="project-about"> Designs and animations for the surprise feature of the FriendHood iOS and Adroid App </br> <a class="link-view" href="friendhood_surprise.html" target="_blank"> View project </a> </p>
-				</div>					
-				<div class="project-home projects-category4">
-					<a class="project-link" href="gemuseackerdemie.html" target="_blank"> <img class="grid-home" src="images/projects/ga.jpg"> 
-					<p class="project-home-title"> GemüseAckerdemie </a> </br> #Branding #Print </p>
-					<p class="project-about"> Development of different print materials for the schools and assistance in launching of new program for families for Gemüse Ackerdemie program. </br>
-					<a class="link-view" href="gemuseackerdemie.html" target="_blank"> View project </a> </p>
-				</div>						
-				<div class="project-home projects-category1 projects-category2 projects-category4 projects-category5">
-					<a class="project-link" href="friendhood_signup.html" target="_blank"> 
-					<img class="grid-home" src="images/projects/fh.jpg"> 
-					<p class="project-home-title"> FriendHood Sign Up and Branding </a> </br> #iOS #Android #Branding</p>
-					<p class="project-about"> Plan and design of the sign up and onboarding flow for the FriendHood App </br> 
-					<a class="link-view" href="friendhood_signup.html" target="_blank"> View project </a> </p>
-				</div>
-				<div class="project-home projects-category1 projects-category2">
-					<a class="project-link" href="ms_orders.html" target="_blank"> <img class="grid-home" src="images/projects/marley_orders.jpg">
-					<p class="project-home-title"> Marley Spoon - Orders Web and iOS </a> </br> #UX #UI #Prototyping #User Testing #iOS </p>
-					<p class="project-about"> Improvement of user experience in the account area, including editing orders in the iOS and web platforms, for Marley Spoon. </br>
-					<a class="link-view" href="ms_orders.html" target="_blank"> View project </a> </p>
-				</div>
-				<div class="project-home projects-category1 projects-category3">
-					<a class="project-link" href="uprooting.html" target="_blank"> <img class="grid-home" src="images/projects/uprooting.jpg"> 
-					<p class="project-home-title"> The Uprooting </a> </br>#UX #UI #Design #Coding</p>
-					<p class="project-about"> Design and engineering for The Uprooting website, a documentary project that explores the refugee crisis through the stories of its protagonists.</br><a class="link-view" href="uprooting.html" target="_blank">View project</a></p> 
-				</div>
-				<div class="project-home projects-category1 projects-category3">
-					<a class="project-link" href="makeplay.html" target="_blank"> <img class="grid-home" src="images/projects/makeplay.jpg">
-					<p class="project-home-title"> Makeplay </a></br>#UX #UI #Design #Coding</p>
-					<p class="project-about"> Design and engineering of makeplay.net, including content creation and branding</br> <a class="link-view" href="makeplay.html" target="_blank"> View project </a> </p>
-				</div>
-				<div class="project-home projects-category4 projects-category5">
-					<a class="project-link" href="quiquepanes.html" target="_blank"><img class="grid-home" src="images/projects/quique.jpg">
-					<p class="project-home-title"> Quique Panes </a> </br> #Branding #Photography #Animation #Illustration</p>
-					<p class="project-about"> Branding material, including photography, animations and logo design for Quique Winograd's bakery products. </br>
-					<a class="link-view" href="quiquepanes.html" target="_blank"> View project </a> </p>
-				</div>
-		</div>
+		<!--end of Navigation bar-->
+		<div id="content-about">
+		<div class="project-img-small">
+						<img src="images/elisa.jpg">
+						<p class="img-caption"> Photograph: Rocio Arismendi </p>
+					</div>
+						<p class="about"> Hi, I am Elisa! </br> </br>
+						I am an experienced and international UX/UI designer currently based in Berlin. I work with organizations and companies of all types and help them with their visual identity, user experience, and marketing. I also like to code. That's why I made this website from scratch. </br> </br> 
+						Apart from designing, I volunteer for <a style="color:#fff" href="https://www.facebook.com/TRJFPBerlin/?ref=br_rs" target="_blank"> The Real Junk Food Project Berlin</a> educating others, and fighting against, food waste. </br> </br> 
+						Due to my interest in education I am also studying Early Childhood Waldorf education at the <a style="color:#fff" href="https://freie-fachschule-berlin.de/"> Freie Fachschule für Sozial Pädagogik </a> </br> </br> 
+						To find out more about my design experience view: </br> my resume <a target="_blank" href="portfolio/ewinograd_CV_EN_2020.pdf">EN</a> | <a target="_blank" href="portfolio/ewinograd_CV_DE_2020.pdf">DE</a> | <a target="_blank" href="portfolio/ewinograd_CV_ES_2020.pdf">ES</a>, <a target="_blank" href="https://www.linkedin.com/in/ewinograd/">linkedin</a>, <a target="_blank" href="https://www.xing.com/profile/Elisa_Winograd/cv">XING</a> or <a style="text-decoration:underline" href="mailto:elisawino.design@gmail.com"> contact me</a> </br> </br> 
+						To see some of my other creative work view: </br>
+						<a target="_blank" style="color: #fff" href="https://vimeo.com/elisaw">vimeo</a> or <a style="color: #fff" target="_blank" href="https://www.flickr.com/photos/elisawino">flickr</a> or <a style="color: #fff" href="blog.html">read my blog</a> </p>
+					</div>
 		<footer id="footer-home"> Design and Development by Elisa Winograd © 2020 All rights reserved. </footer>
 	</body>
 </html>

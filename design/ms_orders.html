@@ -8,7 +8,7 @@
 		<meta name="Elisa Winograd" content="My Website">
 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Mono" rel="stylesheet">
-	    <link rel="stylesheet" href="main.css">
+	    <link rel="stylesheet" href="../main.css">
 	    <link rel="icon" href="http://getemoji.com/assets/ico/favicon.png" type="image/png">
 
 	    <script>
@@ -23,7 +23,7 @@
 		</script>
 	</head>
 	<body>
-		<div class="header"> <a class="back" href="index.html"> back to elisawinograd </a> </div>
+		<div class="header"> <a class="back" href="../design.html"> back to elisawinograd </a> </div>
 		<div id="projects-container">
 			<div class="project">
 				<h1 class="project-title"> Account Area - Marley Spoon </h1>
@@ -35,7 +35,7 @@
 					</p>
 				</article>
 				<div class="project-img">
-					<img src="portfolio/marleyspoon/orders/account-web.jpg" >
+					<img src="../images/design/marleyspoon/orders/account-web.jpg" >
 					<p class="img-caption"> Current orders section </p>
 				</div>
 				<article class="project-article">
@@ -47,15 +47,15 @@
 					</p>
 				</article>		
 				<div class="project-img-small">
-					<img src="portfolio/marleyspoon/orders/mockup-orders1.png">
+					<img src="../images/design/marleyspoon/orders/mockup-orders1.png">
 					<p class="img-caption"> Orders overview - Balsamiq mock up </p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/marleyspoon/orders/mockup-orders2.png">
+					<img src="../images/design/marleyspoon/orders/mockup-orders2.png">
 					<p class="img-caption"> Edit orders step 1 - Balsamiq mock up </p>
 				</div>	
 				<div class="project-img-small">
-					<img src="portfolio/marleyspoon/orders/mockup-orders3.png">
+					<img src="../images/design/marleyspoon/orders/mockup-orders3.png">
 					<p class="img-caption"> Edit orders step 2 - Balsamiq mock up </p>
 				</div>	
 				<article class="project-article">
@@ -66,7 +66,7 @@
 				</article>
 				<div class="project-img">
 					<div class="project-img-small">
-					<img src="portfolio/marleyspoon/orders/mockup-orders-v02.png">
+					<img src="../images/design/marleyspoon/orders/mockup-orders-v02.png">
 					<p class="img-caption"> Edit orders mock up - version 2 </p>
 				</div>	
 				<article class="project-article">
@@ -76,7 +76,7 @@
 					</p>
 				</article>		
 				<div class="project-img">
-					<img src="portfolio/marleyspoon/orders/orders_modal_v02.jpg">
+					<img src="../images/design/marleyspoon/orders/orders_modal_v02.jpg">
 					<p class="img-caption"> First UI change to the edit orders area </p>
 				</div>
 				<article class="project-article">
@@ -88,15 +88,15 @@
 					</p>
 				</article>
 				<div class="project-img">
-					<img src="portfolio/marleyspoon/orders/recipes_app.png">
+					<img src="../images/design/marleyspoon/orders/recipes_app.png">
 					<p class="img-caption"> Recipe App Flow in Sketch</p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/marleyspoon/orders/01_RecipeView_Default-web.jpg">
+					<img src="../images/design/marleyspoon/orders/01_RecipeView_Default-web.jpg">
 					<p class="img-caption"> iOS App Recipe Overview </p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/marleyspoon/orders/02_RecipeView_DishDetail.png">
+					<img src="../images/design/marleyspoon/orders/02_RecipeView_DishDetail.png">
 					<p class="img-caption"> iOS App Recipe Detail </p>
 				</div>
 				<article class="project-article">
@@ -107,6 +107,14 @@
 				</article>
 			</div>
 		</div>
-		<div class="footer-project"> © 2020 Elisa Winograd. All rights reserved. </div>
+		<!-- Footer start -->
+			<div id="footer-inner-placeholder">
+			</div>
+			<script>
+			$(function(){
+			  $("#footer-inner-placeholder").load("footer-inner.html");
+			});
+			</script>
+		<!-- Footer end -->
 	</body>
 </html>

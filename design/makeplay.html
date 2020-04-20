@@ -8,7 +8,7 @@
 		<meta name="Elisa Winograd" content="My Website">
 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Mono" rel="stylesheet">
-	    <link rel="stylesheet" href="main.css">
+	    <link rel="stylesheet" href="../main.css">
 	    <link rel="icon" href="http://getemoji.com/assets/ico/favicon.png" type="image/png">
 
 	    <script>
@@ -23,7 +23,7 @@
 		</script>
 	</head>
 	<body>
-		<div class="header"> <a class="back" href="index.html"> back to elisawinograd </a> </div>
+		<div class="header"> <a class="back" href="../design.html"> back to elisawinograd </a> </div>
 		<div id="projects-container">
 			<div class="project">
 				<h1 class="project-title"> Makeplay </h1>
@@ -37,7 +37,7 @@
 					</p>
 				</article>
 				<div class="project-img">
-					<img src="portfolio/makeplay/makeplay_poster.jpg">
+					<img src="../images/design/makeplay/makeplay_poster.jpg">
 					<p class="img-caption"> Promotional posters for makeplay </p>
 				</div>
 				<article class="project-article">
@@ -53,15 +53,15 @@
 					</p>
 				</article>		
 				<div class="project-img">
-					<img src="portfolio/makeplay/mockup_filters.jpg">
+					<img src="../images/design/makeplay/mockup_filters.jpg">
 					<p class="img-caption"> Initial grid wireframe for makeplay </p>
 				</div>
 				<div class="project-img">
-					<img src="portfolio/makeplay/mockup_activity_detail.jpg">
+					<img src="../images/design/makeplay/mockup_activity_detail.jpg">
 					<p class="img-caption"> Detail of image grid for makeplay </p>
 				</div>
 				<!--<div class="project-img" style="width:700px">
-					<img src="portfolio/theuprooting/uprooting_video_sketch-02.jpg" style="width:500px">
+					<img src="../images/design/theuprooting/uprooting_video_sketch-02.jpg" style="width:500px">
 					<p class="img-caption"> a photo from the project </p>
 				</div>	-->			
 				<article class="project-article">
@@ -74,11 +74,11 @@
 					</p>
 				</article>
 				<div class="project-img-small">
-					<img src="portfolio/makeplay/mockups_V05_Page_01.jpg">
+					<img src="../images/design/makeplay/mockups_V05_Page_01.jpg">
 					<p class="img-caption"> High fidelty mock up of the plarform </p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/makeplay/mockups_V05_Page_05.jpg">
+					<img src="../images/design/makeplay/mockups_V05_Page_05.jpg">
 					<p class="img-caption"> A slightly different approach to what the website could look like </p>
 				</div>
 				<article class="project-article">
@@ -88,11 +88,11 @@
 					</p>
 				</article>		
 				<div class="project-img-small">
-					<img src="portfolio/makeplay/makeplay_website_live.jpg">
+					<img src="../images/design/makeplay/makeplay_website_live.jpg">
 					<p class="img-caption"> Homepage, live website </p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/makeplay/makeplay_grid.jpg">
+					<img src="../images/design/makeplay/makeplay_grid.jpg">
 					<p class="img-caption"> Detail of image grid, live website </p>
 				</div>
 				<article class="project-article">
@@ -104,6 +104,14 @@
 				</article>	
 			</div>
 		</div>
-		<div class="footer-project"> © 2020 Elisa Winograd. All rights reserved. </div>
+		<!-- Footer start -->
+			<div id="footer-inner-placeholder">
+			</div>
+			<script>
+			$(function(){
+			  $("#footer-inner-placeholder").load("footer-inner.html");
+			});
+			</script>
+		<!-- Footer end -->
 	</body>
 </html>

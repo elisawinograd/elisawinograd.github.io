@@ -8,7 +8,7 @@
 		<meta name="Elisa Winograd" content="My Website">
 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Mono" rel="stylesheet">
-	    <link rel="stylesheet" href="main.css">
+	    <link rel="stylesheet" href="../main.css">
 	    <link rel="icon" href="http://getemoji.com/assets/ico/favicon.png" type="image/png">
 
 	    <script>
@@ -23,7 +23,7 @@
 		</script>
 	</head>
 	<body>
-		<div class="header"> <a class="back" href="index.html"> back to elisawinograd </a> </div>
+		<div class="header"> <a class="back" href="../design.html"> back to elisawinograd </a> </div>
 		<div id="projects-container">
 			<div class="project">
 				<h1 class="project-title"> GemüseAckerdemie - Family Program </h1>
@@ -35,7 +35,7 @@
 					</p>
 				</article>
 				<div class="project-img">
-					<img src="portfolio/ga/ga_website.png" >
+					<img src="../images/design/ga/ga_website.png" >
 					<p class="img-caption"> The re-branded website, with illustrations prepared by me</p>
 				</div>
 				<article class="project-article">
@@ -46,11 +46,11 @@
 					</p>
 				</article>		
 				<div class="project-img-small">
-					<img src="portfolio/ga/sketch_01.jpg" >
+					<img src="../images/design/ga/sketch_01.jpg" >
 					<p class="img-caption"> My first concepts for the prototype </p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/ga/sketch_02.jpg">
+					<img src="../images/design/ga/sketch_02.jpg">
 					<p class="img-caption"> </p>
 				</div>	
 				<article class="project-article">
@@ -59,7 +59,7 @@
 					</p>
 				</article>
 				<div class="project-img">
-					<img src="portfolio/ga/mein_woody_flyers.jpg">
+					<img src="../images/design/ga/mein_woody_flyers.jpg">
 					<p class="img-caption"> Mein Woody Design for GemüseAckerdemie with voucher flyers </p>
 				</div>
 				<article class="project-article">
@@ -68,15 +68,15 @@
 					</p>
 				</article>		
 				<div class="project-img">
-					<img src="portfolio/ga/mein_woody_open.jpg">
+					<img src="../images/design/ga/mein_woody_open.jpg">
 					<p class="img-caption"> Mein Woody opened </p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/ga/mein_woody_anleitung_back.jpg">
+					<img src="../images/design/ga/mein_woody_anleitung_back.jpg">
 					<p class="img-caption"> Front instructions to use Mein Woody </p>
 				</div>
 				<div class="project-img-small">
-					<img src="portfolio/ga/mein_woody_anleitung_front.jpg">
+					<img src="../images/design/ga/mein_woody_anleitung_front.jpg">
 					<p class="img-caption"> Front instructions to use Mein Woody </p>
 				</div>
 				<h1 class="project-title"> Learnings </h1>
@@ -87,6 +87,14 @@
 				</article>
 			</div>
 		</div>
-		<div class="footer-project"> © 2020 Elisa Winograd. All rights reserved. </div>
+		<!-- Footer start -->
+			<div id="footer-inner-placeholder">
+			</div>
+			<script>
+			$(function(){
+			  $("#footer-inner-placeholder").load("footer-inner.html");
+			});
+			</script>
+		<!-- Footer end -->
 	</body>
 </html>

@@ -50,9 +50,13 @@ nav {
 }
 
 
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus,
+.nav-link:hover
+{
+    color: #ffe500;
+}
+
+
+.nav-link:focus
 {
     color: #ffe500;
 }

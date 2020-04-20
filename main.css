@@ -64,12 +64,12 @@ nav {
 
 .nav-link:focus
 {
-    color: blue;
+    
 }
 
 .nav-link:active
 {
-    color: #fff;
+    
 }
 
 .title {

@@ -49,17 +49,6 @@ nav {
     float: left;
 }
 
-
-.nav-link:active
-{
-    color: red;
-}
-
-.nav-link:hover
-{
-    color: #ffe500;
-}
-
 .nav-link:visited
 {
     color: #fff;
@@ -67,6 +56,21 @@ nav {
     border-bottom: 2px solid #fff;
 }
 
+.nav-link:hover
+{
+    color: #ffe500;
+}
+
+
+.nav-link:focus
+{
+    color: blue;
+}
+
+.nav-link:active
+{
+    color: red;
+}
 
 .title {
     color: #ffe500;

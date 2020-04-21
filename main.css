@@ -177,12 +177,16 @@ nav {
     text-decoration: none;
 }
 
-.blog-link{
-    padding: 5px;
+.project-link:hover, .blog-link:hover{
+    opacity: 0.8;
 }
 
-.project-about {
-    display: none;
+.project-link-container {
+    margin-top: 10px;
+}
+
+.blog-link{
+    padding: 5px;
 }
 
 .project-home-title, .project-about {
@@ -190,15 +194,28 @@ nav {
     color: #fff;
     font-size: 14px;
     text-decoration: none;
+    margin: 0;
 }
 
-.grid-home{
+.grid-home {
     width: 250px;
-    margin-top: 20px;
-    border: 1px solid #505050;
-    opacity: 1;
 }
 
+.image-link {
+    border: 1px solid #505050;
+    display: flex;
+    margin-top: 20px;
+    opacity: 1;
+    width: 250px;
+    height: auto;
+    transition: .5s ease;
+}
+
+.image-link:hover {
+    background-color: #ffe500;
+    border: 1px solid #ffe500;
+    opacity: 0.8;
+}
 
 #right {
 	float: right;
@@ -541,7 +558,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
     .project-home, .grid-home {
     	width: 100%;
-
+        position:relative;
     }
 
     #about {

@@ -1,5 +1,17 @@
+#starter{
+    background: url(images/shadow_2.jpg) no-repeat top fixed;
+    width:100%;
+    top:0;
+    background-color:#262626;
+    overflow-x: hidden;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
 #index{
-    /*background: url(images/wrist-web-cropped.jpg) no-repeat top fixed;*/
+    width:100%;
     top:0;
     background-color:#262626;
     overflow-x: hidden;
@@ -71,6 +83,21 @@ nav {
 {
     
 }
+
+nav #starter {
+    background-color: none;
+    float: left;
+    margin: 0 20px 20px 0px;
+    padding: 10px 10px 10px 2%;
+    width: 98%;
+    position: fixed;
+    opacity: .9;
+}
+
+#title-index {
+    border-bottom: none;
+}
+
 
 .title {
     color: #ffe500;

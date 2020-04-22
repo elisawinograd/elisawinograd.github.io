@@ -1,5 +1,5 @@
 #starter{
-    background: url(images/shadow_2.jpg) no-repeat top fixed;
+    background: url(images/sequence_2.jpg) no-repeat top fixed;
     width:100%;
     top:0;
     background-color:#262626;
@@ -10,10 +10,14 @@
   	background-size: cover;
 }
 
+*:focus {
+    outline: none;
+}
+
 #index{
     width:100%;
     top:0;
-    background-color:#262626;
+    background-color:#030303;
     overflow-x: hidden;
 }
 

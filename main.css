@@ -54,6 +54,7 @@ nav {
     width: 98%;
     position: fixed;
     opacity: .9;
+    z-index: 10000;
 }
 
 .nav-link {

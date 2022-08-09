@@ -171,6 +171,7 @@ nav #starter {
 
 .bttn-blog, .bttn-projects {
     border: 1px solid #fff;
+    border-radius: 5px;
     color: #fff;
     background-color: transparent;
     font-size: 14px;
@@ -235,6 +236,8 @@ nav #starter {
 
 .grid-home {
     width: 250px;
+    border: 1px solid #505050;
+    border-radius: 5px;
 }
 
 .image-link {
@@ -531,7 +534,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
     .grid-home {
     	margin-top: 20px;
-    	border: 1px solid #505050;
     	opacity: 1;
 	}
 }

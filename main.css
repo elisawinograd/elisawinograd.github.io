@@ -33,13 +33,17 @@ body {
     margin: 0;
 }
 
-#about {
-}
-
 .about {
     float: left;
     margin-top: 0px;
-    width: 400px;
+    width: 50%;
+}
+
+.img-about img{
+    border: 1px solid #000;
+    border-radius: 200px;
+    float: left;
+    margin-right: 5%;
 }
 
 #title {

@@ -230,7 +230,7 @@ nav #starter {
 }
 
 .grid-home {
-    width: 250px;
+    height: 250px;
 }
 
 .image-link {
@@ -439,6 +439,17 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     line-height: 1.5em;
 }
 
+.credits {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.credits a {
+    color: #666;
+}
+
 .project-title {
     font-family: 'PT Sans', sans-serif;
     font-size: 22px;
@@ -491,11 +502,13 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 
 .project-img {
     float:left;
+    margin-bottom: 20px;
 }
 
 .project-img-small {
     float: left;
     width: 50%;
+    margin-bottom: 20px;
 }
 
 .project-article {
@@ -680,5 +693,11 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     .post {
     	width: 300px;
 	}
+    
+    .project-img-small,
+    .project-img {
+        width: 100%;
+    }
+    
 
 }

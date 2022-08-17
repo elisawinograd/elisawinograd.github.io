@@ -481,6 +481,11 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     text-decoration: underline;
 }
 
+.img-about {
+    float: left;
+    padding-right: 30px;
+}
+
 .img-caption {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;

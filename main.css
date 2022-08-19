@@ -612,14 +612,8 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         margin: 0 0 20px 0;
     }
 
-    .nav-link {
-        padding: 8px 0;
-        margin-right: 20px;
-        width: auto;
-    }
-
-    #links-nav-left {
-        margin-top: 10px;
+    #links-nav-left,
+    #links-nav-right {
         padding: 0px;
     }
 

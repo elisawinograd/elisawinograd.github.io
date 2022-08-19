@@ -107,6 +107,7 @@ nav #starter {
     letter-spacing: 1px;
     margin: 0px;
     padding: 10px 0;
+    text-transform: uppercase;
 }
 
 .sub-title {

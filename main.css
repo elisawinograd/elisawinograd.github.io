@@ -102,6 +102,7 @@ nav #starter {
 
 .title {
     color: #ffe500;
+    float: left;
     font-family: 'PT Sans', sans-serif;
     font-size: 22px;
     letter-spacing: 1px;
@@ -184,6 +185,7 @@ nav #starter {
 
 #links {
     float:left;
+    padding: 5px 0px 0 30px;
 }
 
 .bttn-blog:focus, 

@@ -33,12 +33,9 @@ body {
     margin: 0;
 }
 
-#about {
-}
-
 .about {
     float: left;
-    margin-top: 0px;
+    margin-top: 15px;
     width: 400px;
 }
 
@@ -505,10 +502,13 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 .img-about {
-    border: 1px solid #2c2c2c;
-    border-radius: 8px; 
     float: left;
     padding-right: 30px;
+}
+
+.img-about img {
+    border: 1px solid #2c2c2c;
+    border-radius: 4px;
 }
 
 .img-caption {

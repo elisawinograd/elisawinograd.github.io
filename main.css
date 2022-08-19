@@ -161,22 +161,19 @@ nav #starter {
 .filters-projects {
     float: left;
     display: block;
-    margin: 10% 0% 0% 2%;
+    margin: 7% 0% 0% 2%;
 }
 
 .bttn-blog, 
-.bttn-projects,
-.bttn-nav {
+.bttn-projects 
+{
     border: 1px solid #fff;
+    border-radius: 4px;
     color: #fff;
     background-color: transparent;
     font-size: 14px;
     margin: 0px 5px 10px 0px;
     padding: 8px 22px;
-}
-
-.bttn-nav {
-    float: right;
 }
 
 #buttons-nav {
@@ -217,7 +214,7 @@ nav #starter {
 
 .project-home {
     float: left;
-    /*width: 250px;*/
+    width: 250px;
     min-height: 365px;
     margin: 0px 30px 0 0;
 }
@@ -250,8 +247,13 @@ nav #starter {
     margin: 0;
 }
 
-.grid-home {
-    height: 250px;
+.grid-home { 
+    width: 250px; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%; /* try 20px 10px */ 
+    border: 1px solid #2c2c2c;  
+    border-radius: 8px;
 }
 
 .image-link {
@@ -503,6 +505,8 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 .img-about {
+    border: 1px solid #2c2c2c;
+    border-radius: 8px; 
     float: left;
     padding-right: 30px;
 }

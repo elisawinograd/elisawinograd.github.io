@@ -184,8 +184,13 @@ nav #starter {
     float: right;
 }
 
-#links {
+#links-nav-left {
     float:left;
+    padding: 5px 0px 0 30px;
+}
+
+#links-nav-right {
+    float:right;
     padding: 5px 0px 0 30px;
 }
 

@@ -42,10 +42,6 @@ body {
     width: 400px;
 }
 
-#title {
-    border-bottom: 1px solid #f0f0f0;
-}
-
 nav {
     background-color: #000;
     float: left;
@@ -107,7 +103,8 @@ nav #starter {
 .title {
     color: #ffe500;
     font-family: 'PT Sans', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
+    letter-spacing: 1px;
     margin: 0px;
     padding: 10px 0;
 }
@@ -165,7 +162,9 @@ nav #starter {
     margin: 125px 0% 0% 2%;
 }
 
-.bttn-blog, .bttn-projects {
+.bttn-blog, 
+.bttn-projects,
+.bttn-nav {
     border: 1px solid #fff;
     color: #fff;
     background-color: transparent;
@@ -174,10 +173,24 @@ nav #starter {
     padding: 8px 22px;
 }
 
+.bttn-nav {
+    float: right;
+}
+
+#buttons-nav {
+    float: right;
+}
+
+#links {
+    float:left;
+}
+
 .bttn-blog:focus, 
 .bttn-blog:hover,
 .bttn-projects:focus, 
-.bttn-projects:hover {
+.bttn-projects:hover,
+.bttn-nav:focus,
+.bttn-nav:hover {
     outline: none;
     color: #262626;
     background-color: #fff;

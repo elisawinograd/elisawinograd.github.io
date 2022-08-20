@@ -524,7 +524,8 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     width: 80%;
 }
 
-.project-img-small img{
+.project-img-small img,
+.project-img-tiny img{
     border: 1px solid #b0b0b0;
     margin-right:20px;
     width: 90%;
@@ -538,6 +539,12 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 .project-img-small {
     float: left;
     width: 50%;
+    margin-bottom: 20px;
+}
+
+.project-img-tiny {
+    float: left;
+    width: 20%;
     margin-bottom: 20px;
 }
 

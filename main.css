@@ -511,7 +511,8 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     border-radius: 4px;
 }
 
-.img-caption {
+.img-caption,
+.img-caption a {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
     color: #b0b0b0;

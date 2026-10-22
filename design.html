@@ -26,6 +26,18 @@
 		<script src="js/filters.js"></script>
 	</head>
 	<body id="index">
+		<!--Navigation bar start-->
+		<div id="nav-placeholder">
+		</div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("nav.html");
+			});
+		</script>
+		<!--Navigation bar end-->
+		<div id="content-about">
+			<p class="about"> I am a digital designer with a passion for wireframing, prototyping and coding. Above all I enjoy interviewing users to improve their user experience and bring to life flawless digital journeys.
+		</div>
 		<div class="filters-projects">
 			<button class="active bttn-projects" id="all-projects"> All </button>
 			<button class="bttn-projects" id="projects-category1"> UX/UI </button>
@@ -34,7 +46,7 @@
 			<button class="bttn-projects" id="projects-category4"> Branding </button>
 			<button class="bttn-projects" id="projects-category5"> Illustration </button>
 		</div>
-		<!--Navigation bar-->
+		<!--Navigation bar
 			<div id="nav-placeholder">
 			</div>
 			<script>
@@ -42,7 +54,7 @@
 			  $("#nav-placeholder").load("nav.html");
 			});
 			</script>
-		<!--end of Navigation bar-->	
+		end of Navigation bar-->	
 		<div id="content-projects"> 	
 			<div class="project-home projects-category1 projects-category4">
 				<a href="design/tradebay-homepage.html"> 

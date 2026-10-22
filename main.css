@@ -34,9 +34,9 @@ body {
 }
 
 .about {
-    float: left;
     margin-top: 15px;
-    width: 400px;
+    text-align: left;
+    font-size: 28px;
 }
 
 nav {
@@ -158,14 +158,14 @@ nav #starter {
 .filters-projects {
     float: left;
     display: block;
-    margin: 7% 0% 0% 2%;
+    margin: 0% 0% 0% 2%;
 }
 
 .bttn-blog, 
 .bttn-projects 
 {
     border: 1px solid #fff;
-    border-radius: 4px;
+    border-radius: 20px;
     color: #fff;
     background-color: transparent;
     font-size: 14px;
@@ -211,7 +211,7 @@ nav #starter {
 
 .project-home {
     float: left;
-    width: 250px;
+    width: 30%;
     min-height: 400px;
     margin: 0px 30px 0 0;
 }
@@ -219,8 +219,8 @@ nav #starter {
 
 .project-link, .blog-link{
     font-family: 'PT Sans', sans-serif;
-    color: #ffe500;
-    font-size: 16px;
+    color: #fff;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -241,6 +241,7 @@ nav #starter {
     color: #fff;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 2px;
     margin: 0;
 }
 
@@ -256,7 +257,6 @@ nav #starter {
 .image-link {
     margin-top: 20px;
     opacity: 1;
-    width: 250px;
     height: auto;
     transition: .5s ease;
 }
@@ -339,7 +339,7 @@ nav #starter {
 /* TOGGLE */
 
 #content-projects{
-    margin: 0% 9% 5% 2%;
+    
 }
 
 #content-blog {
@@ -347,7 +347,7 @@ nav #starter {
 }
 
 #content-about {
-    margin: 125px 9% 5% 2%;
+    margin: 10%;
 }
 
 #content-about,
@@ -431,7 +431,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     background-color: #030303;
     width: 100%;
     position: fixed;
-    padding: 20px 100px;
+    padding: 2%;
 }
 
 .back {
@@ -602,7 +602,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         margin: 110px 9% 0% 2%;
     }
 
-    #content-projects,
+    #content-projects
     {
         margin: 0px 9% 0% 2%;
     }
@@ -659,7 +659,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     }
 
     .about {
-        width: 300px;
+        
     }
 
     .header {

@@ -24,18 +24,14 @@
 	<body id="starter">
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/filters.js"></script>
-		<nav id="starter">
-			<a href="index.html" style="text-decoration:none">
-				<div id="title-index">
-					<p class="title"> ELISA WINOGRAD </p> 
-					<!--<p class="sub-title"> Creative Designer / Sustainability Enthusiast </p> -->
-				</div>
-			</a>
-			<div id="links-nav-left">
-				<a class="nav-link" href="about.html"> about </a>
-				<a class="nav-link" href="design.html"> designs </a>
-				<a class="nav-link" href="blog.html"> blog </a>
-			</div>
-		</nav>
+		<!--Navigation bar start-->
+		<div id="nav-placeholder">
+		</div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("nav.html");
+			});
+		</script>
+		<!--Navigation bar end-->
 	</body>
 </html>

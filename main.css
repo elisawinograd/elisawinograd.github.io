@@ -71,17 +71,6 @@ nav {
     color: #ffe500;
 }
 
-
-.nav-link:focus
-{
-    
-}
-
-.nav-link:active
-{
-    
-}
-
 nav #starter {
     background-color: none;
     float: left;
@@ -337,10 +326,6 @@ nav #starter {
 }
 
 /* TOGGLE */
-
-#content-projects{
-    
-}
 
 #content-blog {
     margin: 100px 9% 5% 2%;
@@ -656,10 +641,6 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	#about {
         padding: 10px 0px 0px 10px;
         width: 300px;
-    }
-
-    .about {
-        
     }
 
     .header {

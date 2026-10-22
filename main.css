@@ -608,7 +608,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     }
 
     .filters-projects {
-        margin: 145px 0% 0% 2%;
+        margin: 2% 0% 0% 2%;
     }
 
     #content-about{

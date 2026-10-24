@@ -36,7 +36,13 @@ body {
 .about {
     margin-top: 15px;
     text-align: left;
-    font-size: 28px;
+    font-size: 24px;
+}
+
+.about-caption{
+    margin-top: 15px;
+    text-align: left;
+    font-size: 18px;
 }
 
 nav {
@@ -335,7 +341,6 @@ nav #starter {
     margin: 10%;
 }
 
-#content-about,
 #content-blog, 
 #content-projects {
     font-family: 'PT Sans', sans-serif;
@@ -486,14 +491,55 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     text-decoration: underline;
 }
 
-.img-about {
-    float: left;
-    padding-right: 30px;
+<!-- about grid -->
+
+/* The parent layout holding both columns */
+#main-container-about {
+  display: flex !important;       /* Aligns the two main sections side-by-side */
+  gap: 24px;          /* Adds space between the left block and right text block */
+  align-items: flex-start; /* Keeps the text aligned to the top of the container */
 }
 
-.img-about img {
+#content-about {
+    /* align-items: flex-start;  /* Keeps the text aligned to the top of the container */
+    font-family: 'PT Sans', sans-serif;
+	color: #fff;
+    /*display: flex;*/
+    /*gap: 24px;          /*  Adds space between the left block and right text block */
+	font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+
+/* The left section containing the image + bottom text */
+.image-card {
+  display: flex !important;
+  flex-direction: column; /* Stacks the image and caption vertically */
+  width: 300px;           /* Sets a explicit width for your image block */
+  flex-shrink: 0;         /* Prevents the image column from squeezing */
+}
+
+/* Ensure the image behaves and fills its container */
+.image-card img {
+    display: block;
     border: 1px solid #2c2c2c;
-    border-radius: 4px;
+    border-radius: 8px;
+     width: 95%; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%; /* try 20px 10px */ 
+}
+
+/* Optional styling for the text below the image */
+.caption {
+  margin-top: 8px;
+}
+
+/* The right text block expands to fill the remaining space */
+.right-content {
+  flex-grow: 1;
 }
 
 .img-caption,

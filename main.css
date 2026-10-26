@@ -352,8 +352,16 @@ nav #starter {
     margin-left: 2%;
 }
 
-#content-about a {
-    color: #ffe500;
+#content-design {
+    /*align-items: flex-start;  /* Keeps the text aligned to the top of the container */
+    font-family: 'PT Sans', sans-serif;
+	color: #fff;
+    /*display: flex;*/
+    /*gap: 24px;          /*  Adds space between the left block and right text block */
+	font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 10% 2% 2% 2%;
 }
 
 article {
@@ -501,16 +509,21 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 }
 
 #content-about {
-    /* align-items: flex-start;  /* Keeps the text aligned to the top of the container */
+    align-items: flex-start;  /* Keeps the text aligned to the top of the container */
     font-family: 'PT Sans', sans-serif;
 	color: #fff;
-    /*display: flex;*/
-    /*gap: 24px;          /*  Adds space between the left block and right text block */
-	font-size: 17px;
+    display: flex;*/
+    gap: 24px;          /*  Adds space between the left block and right text block */
+	font-size: 18px;
     text-decoration: none;
     float: left;
     margin-bottom: 20px;
     margin-left: 2%;
+}
+
+#content-about a, 
+#content-design a {
+    color: #ffe500;
 }
 
 /* The left section containing the image + bottom text */
@@ -527,7 +540,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     border: 1px solid #2c2c2c;
     border-radius: 8px;
      width: 95%; /* width of container */
-    height: 250px; /* height of container */
+    height: 350px; /* height of container */
     object-fit: cover;
     object-position: 20% 10%; /* try 20px 10px */ 
 }
@@ -624,13 +637,16 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         border-bottom: none;
     }
 
-    #content-about
-    {
-        margin: 145px 9% 0% 2%;
+    #content-about{
+    flex-direction: column;
     }
 
     #content-blog {
         margin: 110px 9% 0% 2%;
+    }
+
+    #content-design {
+        margin: 15% 0% 0% 2%;
     }
 
     #content-projects
@@ -639,7 +655,7 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     }
 
     .filters-projects {
-        margin: 145px 0% 0% 2%;
+        margin: 2% 0% 0% 2%;
     }
 
     #content-about{
@@ -687,6 +703,10 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	#about {
         padding: 10px 0px 0px 10px;
         width: 300px;
+    }
+
+     #content-design {
+        margin: 25% 0% 0% 2%;
     }
 
     .header {

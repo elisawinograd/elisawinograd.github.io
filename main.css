@@ -280,6 +280,10 @@ nav #starter {
     color: #ffe500;
 }
 
+.yellow {
+    color: #ffe500;
+}
+
 .link-about a:active,
 .link a:active{
     color: #000;

@@ -36,7 +36,13 @@ body {
 .about {
     margin-top: 15px;
     text-align: left;
-    font-size: 28px;
+    font-size: 24px;
+}
+
+.about-caption{
+    margin-top: 15px;
+    text-align: left;
+    font-size: 18px;
 }
 
 nav {
@@ -274,6 +280,10 @@ nav #starter {
     color: #ffe500;
 }
 
+.yellow {
+    color: #ffe500;
+}
+
 .link-about a:active,
 .link a:active{
     color: #000;
@@ -335,7 +345,6 @@ nav #starter {
     margin: 10%;
 }
 
-#content-about,
 #content-blog, 
 #content-projects {
     font-family: 'PT Sans', sans-serif;
@@ -347,8 +356,16 @@ nav #starter {
     margin-left: 2%;
 }
 
-#content-about a {
-    color: #ffe500;
+#content-design {
+    /*align-items: flex-start;  /* Keeps the text aligned to the top of the container */
+    font-family: 'PT Sans', sans-serif;
+	color: #fff;
+    /*display: flex;*/
+    /*gap: 24px;          /*  Adds space between the left block and right text block */
+	font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 10% 2% 2% 2%;
 }
 
 article {
@@ -486,14 +503,60 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
     text-decoration: underline;
 }
 
-.img-about {
-    float: left;
-    padding-right: 30px;
+<!-- about grid -->
+
+/* The parent layout holding both columns */
+#main-container-about {
+  display: flex !important;       /* Aligns the two main sections side-by-side */
+  gap: 24px;          /* Adds space between the left block and right text block */
+  align-items: flex-start; /* Keeps the text aligned to the top of the container */
 }
 
-.img-about img {
+#content-about {
+    align-items: flex-start;  /* Keeps the text aligned to the top of the container */
+    font-family: 'PT Sans', sans-serif;
+	color: #fff;
+    display: flex;*/
+    gap: 24px;          /*  Adds space between the left block and right text block */
+	font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+
+#content-about a, 
+#content-design a {
+    color: #ffe500;
+}
+
+/* The left section containing the image + bottom text */
+.image-card {
+  display: flex !important;
+  flex-direction: column; /* Stacks the image and caption vertically */
+  width: 300px;           /* Sets a explicit width for your image block */
+  flex-shrink: 0;         /* Prevents the image column from squeezing */
+}
+
+/* Ensure the image behaves and fills its container */
+.image-card img {
+    display: block;
     border: 1px solid #2c2c2c;
-    border-radius: 4px;
+    border-radius: 8px;
+     width: 95%; /* width of container */
+    height: 350px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%; /* try 20px 10px */ 
+}
+
+/* Optional styling for the text below the image */
+.caption {
+  margin-top: 8px;
+}
+
+/* The right text block expands to fill the remaining space */
+.right-content {
+  flex-grow: 1;
 }
 
 .img-caption,
@@ -578,13 +641,16 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
         border-bottom: none;
     }
 
-    #content-about
-    {
-        margin: 145px 9% 0% 2%;
+    #content-about{
+    flex-direction: column;
     }
 
     #content-blog {
         margin: 110px 9% 0% 2%;
+    }
+
+    #content-design {
+        margin: 15% 0% 0% 2%;
     }
 
     #content-projects
@@ -641,6 +707,10 @@ input[type=checkbox]:checked ~ [for="expand-about"] span:last-of-type {
 	#about {
         padding: 10px 0px 0px 10px;
         width: 300px;
+    }
+
+     #content-design {
+        margin: 25% 0% 0% 2%;
     }
 
     .header {
